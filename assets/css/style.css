@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(43, 41, 41);
+}
+.header .container .row div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.header .container .row div img {
+  width: 100px;
+  height: 60px;
+}
+.header .container .row div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .row div ul li {
+  padding: 0 14px;
+}
+.header .container .row div ul li a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+
+#lorem {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+#lorem .container .row {
+  justify-content: center;
+}
+#lorem .container .row .grid {
+  padding-right: 50px;
+}
+#lorem .container .row .grid h4 {
+  font-size: 30px;
+  font-weight: 650;
+  margin-bottom: 15px;
+}
+#lorem .container .row .grid p {
+  color: #777;
+  margin-bottom: 45px;
+}
+#lorem .container .row .grid a {
+  background-color: orange;
+  padding: 8px 35px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+#lorem .container .row .grid {
+  padding-bottom: 40px;
+}
+#lorem .container .row .grid img {
+  width: 100%;
+}
+
+#introduction .container {
+  padding: 60px 0;
+}
+#introduction .container .introduction-text h3 {
+  font-size: 32px;
+  font-weight: 650;
+  margin: 25px;
+}
+#introduction .container .row .grid {
+  padding: 30px;
+}
+#introduction .container .row .grid img {
+  width: 100%;
+}
+#introduction .container .row .grid .about-img {
+  margin-top: 14px;
+}
+#introduction .container .row .grid .about-img .title {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+#introduction .container .row .grid .about-img .text {
+  color: #777;
+  margin-bottom: 25px;
+}
+#introduction .container .row .grid .about-img a {
+  background-color: orange;
+  padding: 8px 35px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.footer {
+  background-color: rgb(43, 41, 41);
+  color: white;
+  padding: 60px 0;
+}
+.footer .container .row .grid {
+  padding-bottom: 30px;
+}
+.footer .container .row .grid .title h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .container .row .grid .information {
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer .container .row .grid .information .date {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  padding-top: 5px;
+  margin-right: 12px;
+}
+.footer .container .row .grid .information .date a {
+  text-decoration: none;
+}
+.footer .container .row .grid .information .date a p {
+  margin: 0;
+  color: black;
+  font-size: 12px;
+}
+.footer .container .row .grid .information .date a h5 {
+  margin: 0;
+  color: black;
+}
+.footer .container .row .grid .information .text h5 {
+  font-size: 16px;
+}
+.footer .container .row .grid .information .text p {
+  font-size: 12px;
+  color: #d4d4d4;
+}
+.footer .container .row .grid-about {
+  padding-bottom: 30px;
+}
+.footer .container .row .grid-about .title h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .container .row .grid-about p {
+  color: #d3d3d3;
+}
+.footer .container .row .grid-social .title h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .container .row .grid-social ul {
+  padding: 0;
+  list-style: none;
+}
+.footer .container .row .grid-social ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer .container .row .grid-social ul li a span {
+  color: #d3d3d3;
+}
+.footer .container .row .grid-social ul li a i {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
